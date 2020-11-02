@@ -1,6 +1,7 @@
 class Wektor2D
 {
-    Wektor2D(){
+  public:
+  Wektor2D(){
    wspx=0;wspy=0;
     };
     void   setX(double x) { wspx = x; }
@@ -29,7 +30,7 @@ class Wektor2D
         nz = h1.getX() * wspx + h1.getY() * wspy;
         return nz;
     }
-    
+
     private:
     double     wspx;
     double     wspy;
